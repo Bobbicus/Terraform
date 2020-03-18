@@ -24,8 +24,8 @@ variable "webapps" {
   description = "Names for Web apps"
   type        = map
   default = {
-    web1 = "dog-fe-web-1"
-    #web2 = "dog-be-web-2"
+    web1 = "fe-web-1"
+    #web2 = "be-web-2"
     #web3 = "demo-web-3"
   }
 }
